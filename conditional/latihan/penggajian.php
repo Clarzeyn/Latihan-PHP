@@ -88,7 +88,11 @@ switch($pilih){
             echo "Mendapatkan Bonus Sebesar Rp. " . number_format ($bonus, 0, '.','.'). "<br>" . "<hr>";
             echo "Jadi Gaji Budi Adalah Rp. " . number_format ($hasilb, 0, '.','.') . "<br>";
         }
+        else{
+            echo "Ga ada";
+        }
         break;
+
     
     case 2:
         
@@ -165,6 +169,9 @@ switch($pilih){
             echo "Mendapatkan Uang Lembur Rp. " . number_format ($lemburb, 0, '.','.') . "<br>" . "<hr>";
             echo "Mendapatkan Bonus Sebesar Rp. " . number_format ($bonus, 0, '.','.'). "<br>" . "<hr>";
             echo "Jadi Gaji Budi Adalah Rp. " . number_format ($hasilb, 0, '.','.') . "<br>";
+        }
+        else{
+            echo "ga ada";
         }
         break;
 
