@@ -5,7 +5,7 @@
 		echo "&nbsp";
 	}
 	for($a1=$star;$a1>=$a;$a1--){
-		echo"*";
+		echo" * ";
 	}
 	echo"<br>";
 	}
