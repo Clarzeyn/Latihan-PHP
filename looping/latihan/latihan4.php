@@ -1,9 +1,12 @@
 <?php
 	$star=5;
-	for($a=$star;$a>0;$a--){
-	for($b=$star;$b>=$a;$b--){
-		echo "*";
+	for( $a=$star;$a>0;$a--){
+	for($i=1; $i<=$a; $i++){
+		echo "&nbsp";
 	}
-	echo "<br>";
+	for($a1=$star;$a1>=$a;$a1--){
+		echo"*";
+	}
+	echo"<br>";
 	}
 ?>
